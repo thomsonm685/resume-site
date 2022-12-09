@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 
 const Game = () => {
 
-    useEffect(()=>{
+    useEffect(()=>{ 
         document.querySelector('.character').addEventListener('click', (e)=>{
             document.querySelector('.character').classList.add('jump');
             setTimeout(()=>{
