@@ -904,6 +904,10 @@ ul{
   margin-left: 7.52px;
 }
 
+.tree, .cloud, .character, img, .glitch {
+  user-select: none;
+}
+
 @keyframes chase {
   0% {
     transform: scaleX(1);
