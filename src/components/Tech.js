@@ -67,6 +67,7 @@ const Tech = () => {
                         <li>JQuery</li>
                         <li>SQL Databases</li>
                         <li>Koa.JS</li>
+                        <li>React.JS</li>
                         <li>Ruby</li>
                     </ul>
                 </div>
