@@ -5,7 +5,7 @@ const Footer = () => {
     return(
         <div className="footer">
             <div className="credits">
-                <ul> 
+                <ul>  
                     <h3>Credits That Made This Site Easy</h3>
                     <li><a href="https://icons8.com">Icons</a></li>
                     <li><a href="https://codepen.io/askd/pen/aEVyZy">Scrollable</a></li>
