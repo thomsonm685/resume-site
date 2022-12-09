@@ -11,7 +11,7 @@ const Game = () => {
         document.querySelector('.character').addEventListener('click', (e)=>{
             document.querySelector('.character').classList.add('jump');
             setTimeout(()=>{
-                document.querySelector('.character').classList.remove('jump');
+                document.querySelector('.character').classList.remove('jump'); 
             },500)
         })
     },[])
