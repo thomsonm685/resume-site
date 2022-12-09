@@ -899,6 +899,10 @@ ul{
   top: -75px;
 }
 
+.portfolio-items-container .portfolio-item:first-of-type {
+  margin-left: 2px;
+}
+
 @keyframes chase {
   0% {
     transform: scaleX(1);
