@@ -5,7 +5,8 @@ import pressStart from '../public/press_start.svg'
 const Intro = () => {
 
     useEffect(()=>{
-        document.querySelector('.intro-container').addEventListener('click', openSite);
+        document.body.style.cursor = 'pointer';
+        window.addEventListener('click', openSite);
         // Execute a function when the user presses a key on the keyboard
         window.addEventListener("keypress", function(event) {
             // If the user presses the "Enter" key on the keyboard
@@ -19,8 +20,10 @@ const Intro = () => {
     },[])
 
     const openSite = () => {
+        document.body.style.cursor = 'auto';
         document.querySelector('.intro-container').classList.add('close');
         document.querySelector('.main-site').classList.add('open');
+        window.removeEventListener('click', openSite);
     }
         
     
