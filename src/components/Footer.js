@@ -13,7 +13,7 @@ const Footer = () => {
                     <li><a href="https://codepen.io/cbanlawi/pen/xxRBeMY">Glitch</a></li>
                 </ul>
             </div>
-        </div>
+        </div> 
     )
 }
 
