@@ -72,7 +72,7 @@ const Tech = () => {
                     </ul>
                 </div>
                 <div className="skills-container">
-                    <h3>Familiar</h3>
+                    <h3>Worked With</h3>
                     <ul>
                         <li>PHP</li>
                         <li>Rails</li>
