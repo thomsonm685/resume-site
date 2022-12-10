@@ -49,7 +49,7 @@ const Tech = () => {
             </p>   */}
             <div className="skill-list">
                 <div className="skills-container">
-                    <h3>Very Experienced</h3>
+                    <h3>Experienced</h3>
                     <ul>
                         <li>JavaScript</li>
                         <li>HTML</li>
@@ -62,7 +62,7 @@ const Tech = () => {
                     </ul>
                 </div>
                 <div className="skills-container">
-                    <h3>I Can Work With It</h3>
+                    <h3>Proficient</h3>
                     <ul>
                         <li>JQuery</li>
                         <li>SQL Databases</li>
@@ -72,7 +72,7 @@ const Tech = () => {
                     </ul>
                 </div>
                 <div className="skills-container">
-                    <h3>Seen It Once Or Twice</h3>
+                    <h3>Familiar</h3>
                     <ul>
                         <li>PHP</li>
                         <li>Rails</li>

@@ -14,9 +14,8 @@ const TheEnd = () => {
             </p>            
             
             <p className='exp-stack-desc' style={{marginTop:'50px'}}>
-                That's all folks. I'm currently juggling freelance work, a steady contract position, and large amount of 
-                app development for personal projects on the side. I'm always open to hearing about new positions, very open
-                to hearing about ventures, and absolutley love hearing about anything surrounding app development. Feel free 
+                That's all folks. I'm currently juggling freelance work, a steady contract position, and a large amount of 
+                app development. I'm always open to hearing about new positions, ventures, and absolutley love hearing about anything surrounding app development. Feel free 
                 to reach out, I enjoy a good conversation.
             </p>
         </>

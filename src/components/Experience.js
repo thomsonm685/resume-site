@@ -20,9 +20,9 @@ const Experience = () => {
                 <p>Mar, 2022 - Current</p>
             </div>
             <p className='exp-stack-desc'>
-                I have over four years of programming experience and have been freelancing nearly that entire time.
+                I have four years of programming experience, while freelancing nearly that entire time.
                 Those four years have included Shopify and Javascript/Node.js from the start. Everything listed as 
-                'Very Experienced' in the tech section has at least three years of experience behind it.
+                'Experienced' in the tech section has at least three years of experience behind it.
             </p>
         </>
     )
