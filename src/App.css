@@ -81,8 +81,8 @@
 
 
 .review {
-  width: 27vw;
-  height: 27vw;
+  width: 28vw;
+  height: 28vw;
   /* min-width: 20vw;
   max-width: 30vw; */
   border-radius: 10%;
@@ -737,6 +737,11 @@ a.contact-icon:hover{
   animation: crash 5s ease-in-out infinite;
 }
 
+.clickme{
+  color: #ff00ff;
+  animation: text-color-change 5s ease-in-out infinite;
+}
+
 @keyframes drive {
   0% {
     transform: scaleX(1);
@@ -810,6 +815,18 @@ a.contact-icon:hover{
   }
 }
 
+@keyframes text-color-change {
+  0% {
+    color: #ff00ff;
+  }
+  50% {
+    color: #00FFFF;
+  }
+  100% {
+    color: #ff00ff;
+  }
+}
+
 @-webkit-keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -826,7 +843,7 @@ a.contact-icon:hover{
 }
 
 ul{
-  padding-inline-start:0;
+  /* padding-inline-start:0; */
 }
 
 .footer{
