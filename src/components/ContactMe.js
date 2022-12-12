@@ -36,7 +36,7 @@ const ContactMe = () => {
                 <a className='contact-icon' target="_blank" href='https://www.linkedin.com/in/michael-t-b3189015b/'>
                     <img src={linkden} alt="Linkden" ></img>
                 </a>
-                <a className='contact-icon' target="_blank" href='mailto:michaelbuildsapps@gmail.com'>
+                <a className='contact-icon' target="_blank" href='mailto:dev@michaelbuildsapps.com'>
                     <img src={email} alt="Email" ></img>
                 </a>
                 <a className='contact-icon' target="_blank" href='https://www.upwork.com/freelancers/~01a2b64c3b1fd3ca1b'>
