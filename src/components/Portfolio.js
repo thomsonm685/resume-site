@@ -88,6 +88,8 @@ const Portfolio = () => {
         <>
             <div className="portfolio-section">
                 <img src={portfolioText} className="portfolio-text section-title" alt="portfolio-header" />
+                <h3 className='portfolio-subheading'>APPS</h3>
+                <p style={{marginTop:'10px'}}>(Go ahead, click one.)</p>
                 <div className="portfolio-items-container">
                     {portofolioApps.map((item)=>(
                         <PortfolioItem 
@@ -102,14 +104,15 @@ const Portfolio = () => {
                     ))}
                     
                 </div>
-                <h3 className='portfolio-subheading'>APPS</h3>
-                <p style={{marginTop:'10px'}}>(Go ahead, click one.)</p>
+
 
                 {/* <div className='portfolio-chevys'>
                     <img src={chevron} className="chevron-left" alt="chevron-left" onClick={()=>scrollIt('left', 0)} />
                     <h3 className='portfolio-subheading'>APPS</h3>
                     <img src={chevron} className="chevron-right" alt="chevron-right" onClick={()=>scrollIt('right', 0)} />
                 </div> */}
+                <h3 className='portfolio-subheading'>SITE WORK</h3>
+                <p style={{marginTop:'10px'}}>(These too.)</p>
                 <div className="portfolio-items-container">
                     {portofolioSites.map((item)=>(
                             <PortfolioItem 
@@ -123,8 +126,6 @@ const Portfolio = () => {
                             />
                     ))}
                 </div>
-                <h3 className='portfolio-subheading'>SITE WORK</h3>
-                <p style={{marginTop:'10px'}}>(These too.)</p>
 
                 {/* <div className='portfolio-chevys'>
                     <img src={chevron} className="chevron-left" alt="chevron-left" onClick={()=>scrollIt('left', 1)} />

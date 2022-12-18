@@ -1043,3 +1043,10 @@ ul{
     height: 120vw;
   }
 }
+
+@media (max-width: 357px) {
+  .review {
+    width: 90vw;
+    height: 160vw;
+  }
+}
