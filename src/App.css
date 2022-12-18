@@ -296,6 +296,10 @@ h3{
   box-shadow: 0 0 0.1vw 0.4vw #00ffff, 0 0 0.4vw 0.6vw #6371c7, 0 0 2vw 0.4vw #00ffff, inset 0 0 1.5vw 0.4vw #00ffff, inset 0 0 0.4vw 0.2vw #6371c7, inset 0 0 0.5vw 0.2vw #00ffff;
 }
 
+.portfolio-items-container:nth-of-type(2) .portfolio-item:hover{
+  box-shadow: 0 0 0.1vw 0.4vw #ff00ff, 0 0 0.4vw 0.6vw #bd05bd, 0 0 2vw 0.4vw #ff00ff, inset 0 0 1.5vw 0.4vw #ff00ff, inset 0 0 0.4vw 0.2vw #ff00ff, inset 0 0 0.5vw 0.2vw #ff00ff;
+}
+
 div:nth-child(4) .portfolio-item:hover{
   box-shadow: 0 0 0.1vw 0.4vw #ff00ff, 0 0 0.4vw 0.6vw #bd05bd, 0 0 2vw 0.4vw #ff00ff, inset 0 0 1.5vw 0.4vw #ff00ff, inset 0 0 0.4vw 0.2vw #ff00ff, inset 0 0 0.5vw 0.2vw #ff00ff;
   /* box-shadow: 0 0 0.1vw 0.4vw #ff00ff, 0 0 0.4vw 0.6vw #bd05bd, 0 0 0vw 0.4vw #ff00ff, inset 0 0 0.5vw -0.6vw #ff00ff, inset 0 0 0.4vw 0.2vw #bd05bd, inset 0 0 0.5vw -0.8vw #ff00ff; */
