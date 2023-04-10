@@ -10,6 +10,9 @@ import Game from './Game'
 import Portfolio from './Portfolio'
 import Tech from './Tech'
 import TheEnd from './TheEnd'
+import Stats from './Stats'
+import Nav from './Nav'
+import ReviewSlider from './ReviewSlider'
 
 
 const WhoIAm = () => {
@@ -143,15 +146,16 @@ const WhoIAm = () => {
             <div className="who-i-am">
 
                 {/* <div class="curzr-glitch-effect" hidden></div> */}
-
+                <Nav></Nav>
                 <FullStackDev/>
-                <Tech/>
+                <Stats></Stats>
                 <Portfolio/>
-                <Experience/>
-                <ClientReviews/>
+                <Tech/>
+                {/* <Experience/> */}
+                <ReviewSlider/>
                 <ContactMe/>
-                <TheEnd/>
-                <Footer/>
+                {/* <TheEnd/> */}
+                {/* <Footer/> */}
                 <Game/>
             </div>
         </>

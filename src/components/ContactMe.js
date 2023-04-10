@@ -31,7 +31,9 @@ const ContactMe = () => {
 
     return (
         <>
-            <img style={{marginTop:'50px'}} src={contactMeTitle} className="section-title" alt="Contact Me" ></img>
+            {/* <img style={{marginTop:'50px'}} src={contactMeTitle} className="section-title" alt="Contact Me" ></img> */}
+            <h1 style={{marginTop:'15vh'}}>Contact Me</h1>
+            <a id='contact-me'></a>
             <div className='contact-icons'>
                 <a className='contact-icon' target="_blank" href='https://www.linkedin.com/in/michael-t-b3189015b/'>
                     <img src={linkden} alt="Linkden" ></img>

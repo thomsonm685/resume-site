@@ -15,7 +15,9 @@ const Tech = () => {
 
     useEffect(()=>{
         [...document.querySelectorAll(".tech-logo")].forEach(icon=>icon.addEventListener('mouseover', function(event){
-            if(!['matrix(1, 2.44929e-16, -2.44929e-16, 1, 0, 0)', 'none'].includes(window.getComputedStyle(this).transform)) return;
+            if(!['matrix(1, 2.44929e-16, -2.44929e-16, 1, 0, 0)', 'none'].includes(window.getComputedStyle(this).transform)){
+                return
+            } ;
             this.animate([
                 { transform: 'rotate(0deg)' },
                 { transform: 'rotate(-360deg)' },
@@ -29,10 +31,15 @@ const Tech = () => {
         );
         }))
     },[])
+
+    const toggleSkills = () => {
+        document.querySelector('.skill-list').classList.toggle('open');
+    }
     
     return(
         <>
-            <img src={tech} className="tech-text section-title" alt="text" />
+            <h1 style={{marginTop:'15vh'}}>My Tech</h1>
+            {/* <img src={tech} className="tech-text section-title" alt="text" /> */}
             <div className="tech-icons">
                 <img src={node} className="tech-logo" alt="full-stack-dev" />
                 <img src={css3} className="tech-logo" alt="full-stack-dev" />
@@ -47,6 +54,7 @@ const Tech = () => {
             {/* <p className='full-stack-desc'>
                 I've worked with many different tech stacks. From dabbling with Ruby and PHP, to intense applications of Node.JS. Here's the breakdown:
             </p>   */}
+            <h3 className='more-deets' onClick={toggleSkills}>More Details</h3>
             <div className="skill-list">
                 <div className="skills-container">
                     <h3>Experienced</h3>
@@ -56,7 +64,7 @@ const Tech = () => {
                         <li>CSS</li>
                         <li>Node.JS</li>
                         <li>Express.JS</li>
-                        <li>React.JS</li>
+                        <li>React.JS</li> 
                         <li>Shopify Liquid</li>
                         <li>MongoDB</li>
                     </ul>

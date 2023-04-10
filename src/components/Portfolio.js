@@ -87,7 +87,8 @@ const Portfolio = () => {
     return(
         <>
             <div className="portfolio-section">
-                <img src={portfolioText} className="portfolio-text section-title" alt="portfolio-header" />
+                <h1 style={{marginTop:'15vh'}}>Latest Projects</h1>
+                {/* <img src={portfolioText} className="portfolio-text section-title" alt="portfolio-header" /> */}
                 <h3 className='portfolio-subheading'>APPS</h3>
                 <p style={{marginTop:'10px'}}>(Go ahead, click one.)</p>
                 <div className="portfolio-items-container">

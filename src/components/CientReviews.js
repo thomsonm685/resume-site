@@ -9,7 +9,8 @@ const ClientReviews = () => {
 
     return (
         <>
-            <img style={{marginTop:'50px'}} src={clientReviewsTitle} className="section-title" alt="Client Reviews" ></img>
+            <h1 style={{marginTop:'15vh'}}>Nice Words</h1>
+            {/* <img style={{marginTop:'50px'}} src={clientReviewsTitle} className="section-title" alt="Client Reviews" ></img> */}
             <div className="reviews-container">
                 {reviews.map((review,i)=>(
                     <div className={i%2===0?'review blue':'review pink'}>
