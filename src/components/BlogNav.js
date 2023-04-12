@@ -4,7 +4,7 @@ import fullStackDev from '../public/fullstackdev.svg'
 import {useEffect} from 'react';
 
 
-const Nav = () => {
+const BlogNav = () => {
 
     var prevScrollpos = window.pageYOffset;
 
@@ -23,10 +23,10 @@ const Nav = () => {
 
     return(
         <div className='nav-head open'>
-            <a className='gradient-button' href='#contact-me'>Contact Me</a>
-            <a className='blog-link' href='/blogs'>My Blog</a>
+            <a className='gradient-button' href='/#contact-me'>Contact Me</a>
+            <a className='blog-link' href='/'>Home</a>
         </div>
     )
 }
 
-export default Nav;
+export default BlogNav;
