@@ -6,7 +6,7 @@ import {useEffect} from 'react';
 
 const BlogNav = () => {
 
-    var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.pageYOffset; 
 
     useEffect(()=>{
         window.onscroll = function() {
