@@ -5,7 +5,7 @@ import fullStackDev from '../public/fullstackdev.svg'
 const FullStackDev = () => {
     
     return(
-        <div className='gradient-background'>
+        <div className='gradient-background hero'>
             <img src={myName} className="my-name" alt="my name" />
             {/* <img src={fullStackDev} className="full-stack-dev section-title" alt="full-stack-dev" /> */}
             <h1 style={{marginTop:'0px'}}>Complex Ideas, Elegant Solutions.</h1>

@@ -28,7 +28,9 @@ const ReviewSlider = () => {
                 ))}
             </div> */}
             <div className="slide-container">
-            <h1 style={{marginTop:'15vh'}}>Nice Words</h1>
+            <h1 style={{marginTop:'15vh'}} className='niceWordsHeader'>Nice Words</h1>
+            <h3 style={{marginBottom:'5vh'}} className='mobileSwipe'>(swipe)</h3>
+
                 <Slide>
                 {reviews.map((review,i)=>(
                     <div className='review-slide gradient-slide'>
