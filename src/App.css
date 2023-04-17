@@ -1515,6 +1515,10 @@ a.control_next {
 }
 
 @media (max-width: 670px) {
+  .gradient-button{
+    width: 150px;
+    font-size: 1.2em;
+  }
   .blogPreview h3 {
     font-size: 1.5em;
   }
@@ -1556,7 +1560,7 @@ a.control_next {
     height: 48vw;
   }
   .incrementCounter h3{
-    font-size: 6em;
+    font-size: 5em;
   }
   .incrementCounter h2{
     font-size: 2em;
