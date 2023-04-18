@@ -1577,6 +1577,11 @@ a.control_next {
 }
 
 
+@media (max-width: 1019px) {
+  .incrementCounter h2{
+    margin:0;
+  }
+}
 
 
 
